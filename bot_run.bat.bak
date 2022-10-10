@@ -1,0 +1,11 @@
+@echo off
+
+call %~dp0D:\Bot_test\venv\Scripts\activate
+
+cd %~dp0D:\Bot_test
+
+set TOKEN=5607198410:AAF_NQnCDSOlVG-A2G-2yPpMg-DKvEVTwWM
+
+python main.py
+
+pause
